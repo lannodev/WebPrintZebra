@@ -1,0 +1,46 @@
+
+<!--///// desenvolvido por LUCIANO OLIVEIRA ////
+///// https://www.linkedin.com/in/lucianowork //////
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>..:: Etiquetas ::..</title>
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+</head>
+  
+
+<body>
+
+  <form id="contact-form">
+  
+      <h1><span>Imprimir</span> Etiquetas</h1>
+      <input placeholder="Linha 1" type="text" id="linha1" name="linha1" maxlength="47" required/>
+      <input placeholder="Linha 2" type="text" id="linha2" name="linha2" maxlength="47" />
+      <input placeholder="Linha 3" type="text" id="linha3" name="linha3" maxlength="47" />
+      <input placeholder="Linha 4" type="text" id="linha4" name="linha4" maxlength="47" />
+      <input placeholder="Linha 5" type="text" id="linha5" name="linha5" maxlength="47" />
+      <input placeholder="Linha 6" type="text" id="linha6" name="linha6" maxlength="47" />
+      <input placeholder="Linha 7" type="text" id="linha7" name="linha7" maxlength="47" />
+      <input type="number" min="1" name="copias" id="copias"  placeholder="Quantidades copias" required/>
+      
+      <h6>Anteção! respeite a quantidade maxima de 36 caracteres por linha ou a impressão não sairá corretamente.</h6>
+      <input type="submit" onClick="validator()" value="IMPRIMIR" class="btn">
+ 
+ </form>
+
+
+<script src='js/jquery.js'></script>
+<script src='js/jquery.validate.min.js'></script>
+<script src="js/index.js"></script>
+
+<applet name="jZebra" code="jzebra.RawPrintApplet.class" archive="jar/jzebra.jar" width="0" height="0">
+      <param name="printer" value="zebra">
+</applet>
+
+</body>
+
+</html>
