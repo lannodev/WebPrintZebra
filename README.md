@@ -1,5 +1,5 @@
 # Web-Print-Zebra
-Imprimir etiquetas em EPL e ZPL usando o plugin qz print
+Print labels with EPL ad ZPL using the plugin qz print
 
-Template utilizando o plugin qz print https://github.com/luciano-work/qz-print
-para imprimir através do navegador em impressoras zebra.
+Template with the plugin qz print https://github.com/luciano-work/qz-print
+to print labels through browser in zebra printers.
